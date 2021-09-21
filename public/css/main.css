@@ -1,0 +1,65 @@
+:root {
+  --bg-light: #911F27;
+  --bg-dark: #630A10;
+  --txt-light:#FCF0C8;
+  --txt-dark: #FACE7F;
+}
+
+body {
+  background-color: var(--bg-light);
+  padding: 3rem;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+h1,
+h2 {
+  color: var(--txt-dark);
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+  color: var(--txt-light);
+}
+
+p {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+img {
+  max-height: 100%;
+  width: auto;
+}
+
+.display-window {
+  border-radius: 2%;
+}
+
+.image {
+  padding: 6rem;
+  text-align: center;
+  max-height: 100%;
+}
+
+.image p {
+  bottom: 1rem;
+  background-color: var(--bg-dark);
+  padding-top: .5rem;
+  padding-bottom: .75rem;
+}
+
+.image p:last-of-type {
+  padding-top: 0;
+}
+
+.timer-div {
+  text-align: center;
+}
+
+.verticle {
+  max-height: 3200px;
+  max-width: 2400px
+}
