@@ -7,7 +7,6 @@
 
 body {
   background-color: var(--bg-light);
-  padding: 3rem;
   font-family: 'Mouse Memoirs', sans-serif;
 }
 
@@ -53,6 +52,10 @@ img {
 
 .image p:last-of-type {
   padding-top: 0;
+}
+
+.navbar {
+  margin-bottom: 3rem;
 }
 
 .timer-div {
